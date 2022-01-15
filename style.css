@@ -8,11 +8,13 @@
 -----------------
  */
 
+main{
+    padding: 5%;
+}
 body{
     font-family: Poppins;
     background-color: #FFFFFF;
     margin: 0%;
-    padding: 5%;
 }
 hr{
     width: 1110px;
@@ -187,3 +189,36 @@ Feature Section
     text-decoration: none;
     padding: 10px 24px;
 }
+
+/* 
+-------------
+Fotter Section
+--------------
+ */
+ footer{
+    color: white;
+    height: 239px;
+    background-color: #0A0826;
+    margin: 0px;
+    padding: 0px;
+    display: grid;
+    text-align: center;
+    align-content: space-evenly;
+ }
+ .footer-title>h1{
+    font-size: 24px;
+    margin: 0px;
+ }
+ .copyright>p{
+     color: #D9DBE1;
+     margin: 0px;
+ }
+ .social-media{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     column-gap: 16px;
+ }
+ .social img{
+    width: 20px;
+ }
