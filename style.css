@@ -276,8 +276,8 @@ Fotter Section
      justify-content: center;
      column-gap: 16px;
  }
- .social img{
-    width: 20px;
+ .social{
+    color: white;
  }
 
  /* 
