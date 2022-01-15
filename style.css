@@ -154,3 +154,36 @@ Popular Collection
     align-items: center;
     margin-top: 50px;
 }
+
+/* 
+--------------
+Feature Section 
+---------------
+*/
+.featured-part{
+    display: grid;
+    justify-items: center;
+}
+.feature{
+    width: 1110px;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    align-items: center;
+}
+.feature-photo{
+    width: 404px;
+    height: 270px;
+    border-radius: 7px;
+}
+.feature-text-title{
+    font-size: 38px;
+}
+.feature-button{
+    width: 155px;
+    height: 44px;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color:  #E02C6D;;
+    text-decoration: none;
+    padding: 10px 24px;
+}
