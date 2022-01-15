@@ -268,8 +268,9 @@ Fotter Section
  }
 
  /* 
- ==============
+ ================
  Responsive Section
+ 1. Mobile
  ==================
   */
   @media only screen and (max-width:688px) {
@@ -414,3 +415,92 @@ Fotter Section
     --------------
      */
 }  
+
+
+/* 
+================
+Responsive Section
+2. Tablet
+==================
+ */
+
+ @media only screen and (min-width:688px) and (max-width:992px) {
+
+    /* 
+    --------------------
+    Common part
+    ----------------------
+     */
+     main{
+        padding: 30px;
+     }
+     
+     /* 
+     ----------------
+     Navigation Section
+     --------------------
+      */
+
+    header{
+        width: 100%;
+    }
+    nav{
+        width: 100%;
+    }
+   
+    .nav-link ul{
+        display: flex;
+    }
+
+    /* 
+    ----------------
+    banner Section
+    ----------------
+     */
+    
+
+
+    /* 
+    -----------
+    Clients Area
+    ------------
+     */
+
+     hr{
+        width: 100%;
+        border: 1px solid rgba(192, 204, 218, 0.322);
+    }
+    .client-area{
+        margin: 10% 0px;
+    }
+    .clients{
+        display: flex;
+        justify-content: space-around;
+        padding: 0px;
+        margin-bottom: 25px;
+    }
+    .clients img{
+        margin: 0px;
+    }
+
+    /* 
+    -------------
+    Popular Collections
+    -----------------
+     */
+     .collections{
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+    }
+   
+    /* 
+    --------------
+    Footer Section 
+    ---------------
+    */
+    footer{
+        width: 100%;
+    }
+
+
+ }
