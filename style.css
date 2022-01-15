@@ -70,14 +70,12 @@ Navigation
  ------------------
  */
  .container{
-    
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     justify-items: center;
 }
 .banner{
     width: 1150px;
-    /* height: 100vh; */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 130px;
@@ -268,3 +266,100 @@ Fotter Section
  .social img{
     width: 20px;
  }
+
+ /* 
+ ==============
+ Responsive Section
+ ==================
+  */
+  @media only screen and (max-width:688px) {
+
+    /* 
+    ---------------
+    navigation part 
+    ---------------
+    */
+
+    header{
+        width: 100%;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .title h1{
+        font-size: 25px;
+        margin: 0 auto;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        align-items: center;
+        margin-left: -105px;
+    }
+     /*
+      ------------------
+       top banner part
+      ------------------- 
+      */
+
+      .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .banner-title{
+        font-size: 28px;
+        line-height: 42px;
+    }
+    .banner-photo{
+        width: 100%;
+        height: 100%;
+        order: 1;
+        margin-bottom: 8%;
+    }
+    .banner-photo img{
+        width: 257px;
+        height: 257px;
+        
+    }
+    .banner-info{
+        order: 2;
+    }
+    .button{
+        width: 100%;
+        height: 44px;
+    }
+    .banner{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+   
+    /* 
+    --------------
+    Client Area
+    ----------------
+    */
+    hr{
+        width: 100%;
+        border: 1px solid rgba(192, 204, 218, 0.322);
+    }
+    .client-area{
+        margin: 10% 0px;
+    }
+    .clients{
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        row-gap: 2%;
+        padding: 0px;
+        margin-bottom: 25px;
+    }
+    .clients img{
+        margin: 0px;
+    }
+
+   .popular-collection-part, .featured-part, footer{
+        display: none;
+    }
+}  
