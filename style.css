@@ -338,7 +338,7 @@ Fotter Section
         flex-direction: column;
     }
     .title h1{
-        font-size: 25px;
+        font-size: 16px;
         margin: 0 auto;
     }
     ul{
@@ -355,22 +355,22 @@ Fotter Section
       */
 
       .container{
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
     .banner-title{
         font-size: 28px;
         line-height: 42px;
     }
     .banner-photo{
-        width: 100%;
+        width: 257px;
+        height: 257px;
         order: 1;
-        margin-bottom: 8%;
-        transform: translate(93px, 92px);
     }
     .banner-photo img{
         width: 257px;
         height: 257px;
+        margin-bottom: 20px;
         
     }
     .banner-info{
@@ -424,6 +424,27 @@ Fotter Section
      }
 
      /* 
+     ----------------------
+     Paper Fly Section
+     আমার একান্ত ভাবনা থেকে
+     -------------------
+      */
+      .fly-section{
+          width: 50%;
+          height: 757px;
+          margin-bottom: 20px;
+      }
+     .paperfly{
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+     }
+     .fly{
+        width: 257px;
+        height: 257px;
+     }
+
+     /* 
      ---------------
      Optional Part
      feature Section
@@ -454,6 +475,10 @@ Fotter Section
     Footer Section
     --------------
      */
+     footer{
+         margin: 0px;
+         padding: 0px;
+     }
 }  
 
 
@@ -500,13 +525,14 @@ Responsive Section
      .banner{
          width: 100%;
          transform: translate(87px, 97px);
+         column-gap: 20px;
      }
      .banner-photo{
-         width: 100%;
+         width: 257px;
          height: 257px;
      }
      .banner-photo img{
-        width: 100%;
+        width: 257px;
         height: 257px;
      }
     
@@ -551,7 +577,30 @@ Responsive Section
       */
       .featured-part{
           display: none;
+        /* width: 600px;
+        display: flex;
+        flex-direction: column; */
       }
+      /* .feature{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+      } */
+
+      /* paperfly */
+      .fly-section{
+        width: 60%;
+        height: 757px;
+        margin-bottom: 20px;
+    }
+   .paperfly{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+   }
+   .fly{
+      width: 257px;
+      height: 257px;
+   }
     
    
     /* 
