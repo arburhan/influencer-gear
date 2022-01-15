@@ -1,0 +1,97 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+
+/*
+-----------------
+ Common Part
+-----------------
+ */
+
+body{
+    font-family: Poppins;
+    background-color: #FFFFFF;
+    margin: 0%;
+    padding: 5%;
+}
+hr{
+    width: 1110px;
+    border: 1px solid rgba(192, 204, 218, 0.322);
+}
+ 
+.container{
+    width: 1150px;
+    height: 100vh;
+}
+.button{
+    width: 196px;
+    height: 44px;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color:  #E02C6D;;
+    text-decoration: none;
+    padding: 10px 24px;
+    border-radius: 41px;
+}
+.fa-arrow-right{
+    margin: 0px 8px;
+}
+
+/* 
+-------------------
+ top banner part 
+ ------------------
+ */
+
+.baner{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 130px;
+}
+.banner-text>h1{
+    font-size: 52px;
+    line-height: 135%;
+    color: #3A3A3A;
+}
+.banner-text>p{
+    font-size: 16px;
+    line-height: 24px;
+    font-feature-settings: 'liga' off;
+    color: #3A3A3A;
+}
+.banner-photo{
+    width: 475px;
+    height: 475px;
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+}
+.banner-photo img{
+    width: 440px;
+    height: 414px;
+}
+
+/* clients area */
+.clients{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 36px;
+
+}
+.clients img{
+    width: 84px;
+    height: 26px;
+}
+
+/* 
+-----------------------
+Popular Collection
+------------------------
+ */
+.collection-part{
+    width: 1050px;
+}
+.collection-part>h1{
+    font-size: 28px;
+    color: #3A3A3A;
+    text-align: center;
+}
