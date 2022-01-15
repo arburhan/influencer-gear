@@ -87,13 +87,21 @@ hr{
 Popular Collection
 ------------------------
  */
-.collection-part{
-    width: 1050px;
-}
-.collection-part>h1{
+ .popular-collection-part{
+     display: grid;
+     justify-content: center;
+ }
+.popular-collection-part>h1{
     font-size: 28px;
     color: #3A3A3A;
     text-align: center;
+}
+.collections{
+    width: 1050px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+    row-gap: 30px;
 }
 .collection-card{
     width: 329px;
@@ -122,7 +130,7 @@ Popular Collection
     color: rgba(0, 0, 0, 0.87);
     margin: 0px;
 }
-.fas{
+.fa-star{
     font-size: 12px;
 }
 .fill{
@@ -137,4 +145,12 @@ Popular Collection
     color: #787885;
     margin: 0px;
     padding-top: 5px;
+}
+.side-link{
+    text-decoration: none;
+    color: #E02C6DDE;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 50px;
 }
