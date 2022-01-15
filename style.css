@@ -100,11 +100,24 @@ Navigation
     height: 475px;
     background-image: url(images/Circle\ design.svg);
     background-repeat: no-repeat;
+    
 }
 .banner-photo img{
     width: 440px;
     height: 414px;
+    animation: animate .5s ease-in-out .2s 1;
 }
+/* animation */
+@keyframes animate {
+    0%{
+        transform: translate(-644px, 10px);
+    }
+    100%{
+        transform: translate(10px, 33px);
+    }
+}
+
+
 
 /* 
 ----------------
@@ -240,7 +253,6 @@ Fotter Section
 --------------
  */
  footer{
-    max-width: 1200px;
     color: white;
     height: 239px;
     background-color: #0A0826;
@@ -325,9 +337,9 @@ Fotter Section
     }
     .banner-photo{
         width: 100%;
-        height: 100%;
         order: 1;
         margin-bottom: 8%;
+        transform: translate(93px, 92px);
     }
     .banner-photo img{
         width: 257px;
@@ -460,6 +472,7 @@ Responsive Section
      */
      .banner{
          width: 100%;
+         transform: translate(87px, 97px);
      }
      .banner-photo{
          width: 100%;
@@ -520,7 +533,7 @@ Responsive Section
     ---------------
     */
     footer{
-        width: 108%;
+        width: 100%;
     }
 
  }
