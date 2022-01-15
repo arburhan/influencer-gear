@@ -213,7 +213,7 @@ Feature Section
 .feature{
     width: 1110px;
     display: grid;
-    grid-template-columns: repeat(2, 2fr);
+    grid-template-columns: repeat(1, 1fr);
     align-items: center;
 }
 .feature-photo{
@@ -273,6 +273,15 @@ Fotter Section
  ==================
   */
   @media only screen and (max-width:688px) {
+
+    /*
+-----------------
+ Common Part
+-----------------
+ */
+      main{
+          padding: 10px;
+      }
 
     /* 
     ---------------
@@ -359,7 +368,49 @@ Fotter Section
         margin: 0px;
     }
 
-   .popular-collection-part, .featured-part, footer{
+    /* 
+    -------------------------
+    Popular Collection 
+    ----------------------------
+     */
+     .collections{
+         width: 100%;
+         grid-template-columns: repeat(1, 1fr);
+     }
+     .collection-card{
+        width: 329px;
+        height: 476px;
+     }
+
+     /* 
+     ---------------
+     Optional Part
+     feature Section
+     ---------------
+      */
+    
+      /* .feature{
+          width: 90%;
+          display: grid;
+          grid-template-rows: repeat(2, 2fr);
+      }
+      .feature-photo img{
+        width: 299px;
+        height: 188px;
+        padding: 30px;
+      }
+      .feature-text-title{
+        font-size: 24px;
+      }
+      .feature-text{
+          width: 80%;
+      } */
+      .featured-part{
         display: none;
     }
+    /* 
+    -------------
+    Footer Section
+    --------------
+     */
 }  
