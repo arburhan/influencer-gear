@@ -287,7 +287,6 @@ Feature Section
  */
 .fly-section {
     width: 700px;
-    height: 500px;
     margin: 0 auto;
 }
 
@@ -487,9 +486,10 @@ footer {
      -------------------
       */
     .fly-section {
-        width: 50%;
-        height: 757px;
+        width: 100%;
+        padding: 5px 10px;
         margin-bottom: 20px;
+
     }
 
     .paperfly {
@@ -655,30 +655,29 @@ Responsive Section
 
     /* paperfly */
     .fly-section {
-        width: 60%;
-        height: 757px;
-        margin-bottom: 20px;
+        padding-bottom: 100px;
     }
 
     .paperfly {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
     }
 
-    .fly {
-        width: 257px;
-        height: 257px;
-    }
+    /* .fly {
+        width: 250px;
+        /* height: 257px; */
+}
 
+*/
 
-    /* 
+/* 
     --------------
     Footer Section 
     ---------------
     */
-    footer {
-        width: 100%;
-    }
+footer {
+    width: 100%;
+}
 
 }
