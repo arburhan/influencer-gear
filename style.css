@@ -7,30 +7,34 @@
  Common Part
 -----------------
  */
-main{
+main {
     padding: 10px 70px 70px 70px;
 }
-body{
+
+body {
     font-family: Poppins;
     background-color: #FFFFFF;
     margin: 0%;
 }
-hr{
+
+hr {
     width: 1110px;
     border: 1px solid rgba(192, 204, 218, 0.322);
 }
- 
-.button{
+
+.button {
     width: 196px;
     height: 44px;
     font-size: 16px;
     color: #FFFFFF;
-    background-color:  #E02C6D;;
+    background-color: #E02C6D;
+    ;
     text-decoration: none;
     padding: 10px 24px;
     border-radius: 41px;
 }
-.fa-arrow-right{
+
+.fa-arrow-right {
     margin: 0px 8px;
 }
 
@@ -39,27 +43,31 @@ hr{
 Navigation
 --------------
  */
- header{
-     max-width: 1200px;
-     margin: 0 auto;
+header {
+    max-width: 1200px;
+    margin: 0 auto;
 
- }
- nav{
-     display: flex;
-     align-items: center;
-     justify-content: space-between;
-     padding: 30px 70px 70px 70px;
- }
- .nav-link ul{
-     display: flex;
- }
- .nav-link ul li{
-     list-style: none;
-     padding-left: 30px;
- }
- .nav-link ul a{
-     text-decoration: none;
- }
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 70px 70px 70px;
+}
+
+.nav-link ul {
+    display: flex;
+}
+
+.nav-link ul li {
+    list-style: none;
+    padding-left: 30px;
+}
+
+.nav-link ul a {
+    text-decoration: none;
+}
 
 
 
@@ -69,12 +77,13 @@ Navigation
  top banner part 
  ------------------
  */
- .container{
+.container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     justify-items: center;
 }
-.banner{
+
+.banner {
     width: 1150px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -83,36 +92,41 @@ Navigation
     justify-items: center;
 }
 
-.banner-title{
+.banner-title {
     font-size: 52px;
     line-height: 135%;
     color: #3A3A3A;
     margin: 0px 20px 20px 0px;
 }
-.banner-text{
+
+.banner-text {
     font-size: 16px;
     line-height: 24px;
     color: #3A3A3A;
     margin: 0px 0px 16px 0px;
 }
-.banner-photo{
-    width: 475px;
-    height: 475px;
+
+.banner-photo {
+    /* width: 475px;
+    height: 475px; */
     background-image: url(images/Circle\ design.svg);
     background-repeat: no-repeat;
-    
+    background-size: cover;
 }
-.banner-photo img{
-    width: 440px;
-    height: 414px;
+
+.banner-photo img {
+    /* width: 440px; */
+    /* height: 414px; */
     animation: animate .5s ease-in-out .2s 1;
 }
+
 /* animation */
 @keyframes animate {
-    0%{
+    0% {
         transform: translate(-644px, 10px);
     }
-    100%{
+
+    100% {
         transform: translate(10px, 33px);
     }
 }
@@ -124,17 +138,19 @@ Navigation
 Clients Section
 ------------------
  */
-.client-area{
+.client-area {
     margin: 70px 0px 100px 0px;
 }
-.clients{
+
+.clients {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 20px 36px;
 }
-.clients img{
+
+.clients img {
     width: 84px;
     height: 26px;
     margin-left: 60px;
@@ -145,24 +161,27 @@ Clients Section
 Popular Collection
 ------------------------
  */
- .popular-collection-part{
-     display: grid;
-     justify-content: center;
- }
-.collection-title{
+.popular-collection-part {
+    display: grid;
+    justify-content: center;
+}
+
+.collection-title {
     font-size: 28px;
     color: #3A3A3A;
     text-align: center;
     margin: 30px 0px;
 }
-.collections{
+
+.collections {
     width: 1050px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 30px;
     row-gap: 30px;
 }
-.collection-card{
+
+.collection-card {
     width: 329px;
     height: 476px;
     padding: 15px 0px;
@@ -171,41 +190,48 @@ Popular Collection
     display: grid;
     grid-template-rows: repeat(2, 1fr);
     justify-items: center;
-    
+
 }
-.procuct-photo{
+
+.procuct-photo {
     width: 300px;
     height: 256px;
     box-sizing: border-box;
 }
 
-.product-name{
+.product-name {
     font-size: 28px;
     color: #18191F;
     margin: 16px 0px 6px 0px;
 }
-.product-price{
+
+.product-price {
     font-size: 24px;
     color: rgba(0, 0, 0, 0.87);
     margin: 0px;
 }
-.fa-star{
+
+.fa-star {
     font-size: 12px;
 }
-.fill{
+
+.fill {
     color: Orange;
 }
-.rate-point{
+
+.rate-point {
     font-size: 14px;
     margin-top: 5px;
 }
-.info{
+
+.info {
     font-size: 14px;
     color: #787885;
     margin: 0px;
     padding-top: 5px;
 }
-.side-link{
+
+.side-link {
     text-decoration: none;
     color: #E02C6DDE;
     display: flex;
@@ -221,65 +247,76 @@ Feature Section
 
 ---------------
 */
-.featured-part{
+.featured-part {
     display: grid;
     justify-items: center;
 }
-.feature{
+
+.feature {
     width: 1110px;
     display: grid;
     grid-template-columns: repeat(2, 2fr);
     align-items: center;
 }
-.feature-photo{
+
+.feature-photo {
     width: 404px;
     height: 270px;
     border-radius: 7px;
 }
-.feature-text-title{
+
+.feature-text-title {
     font-size: 38px;
 }
-.feature-button{
+
+.feature-button {
     width: 155px;
     height: 44px;
     font-size: 16px;
     color: #FFFFFF;
-    background-color:  #E02C6D;;
+    background-color: #E02C6D;
+    ;
     text-decoration: none;
     padding: 10px 24px;
 }
+
 /* 
 --------------
 নিজের তৈরি 
 ----------
  */
- .fly-section{
+.fly-section {
     width: 700px;
     height: 500px;
     margin: 0 auto;
- }
- .paperfly{
-     display: flex;
-     flex-direction: column;
-     align-items: center;
- }
- .fly{
+}
+
+.paperfly {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fly {
     width: 300px;
     height: 256px;
- }
- .fa-heart{
-     margin-right: 5px;
- }
- .lovefly{
-     margin: 0 auto;
-     text-align: center;
- }
+}
+
+.fa-heart {
+    margin-right: 5px;
+}
+
+.lovefly {
+    margin: 0 auto;
+    text-align: center;
+}
+
 /* 
 -------------
 Fotter Section
 --------------
  */
- footer{
+footer {
     color: white;
     height: 239px;
     background-color: #0A0826;
@@ -288,41 +325,45 @@ Fotter Section
     display: grid;
     text-align: center;
     align-content: space-evenly;
- }
- .footer-title>h1{
+}
+
+.footer-title>h1 {
     font-size: 24px;
     margin: 0px;
- }
- .copyright>p{
-     color: #D9DBE1;
-     margin: 0px;
- }
- .social-media{
-     display: flex;
-     flex-direction: row;
-     justify-content: center;
-     column-gap: 16px;
- }
- .social{
-    color: white;
- }
+}
 
- /* 
+.copyright>p {
+    color: #D9DBE1;
+    margin: 0px;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 16px;
+}
+
+.social {
+    color: white;
+}
+
+/* 
  ================
  Responsive Section
  1. Mobile
  ==================
   */
-  @media only screen and (max-width:688px) {
+@media only screen and (max-width:688px) {
 
     /*
 -----------------
  Common Part
 -----------------
  */
-      main{
-          padding: 10px;
-      }
+    main {
+        padding: 10px;
+    }
 
     /* 
     ---------------
@@ -330,82 +371,97 @@ Fotter Section
     ---------------
     */
 
-    header{
+    header {
         width: 100%;
     }
-    nav{
+
+    nav {
         display: flex;
         flex-direction: column;
     }
-    .title h1{
+
+    .title h1 {
         font-size: 16px;
         margin: 0 auto;
     }
-    ul{
+
+    ul {
         display: flex;
         flex-direction: column;
         row-gap: 10px;
         align-items: center;
         margin-left: -105px;
     }
-     /*
+
+    /*
       ------------------
        top banner part
       ------------------- 
       */
 
-      .container{
+    .container {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1fr);
     }
-    .banner-title{
+
+    .banner-title {
         font-size: 28px;
         line-height: 42px;
     }
-    .banner-photo{
-        width: 257px;
-        height: 257px;
+
+
+    .banner-photo {
+        width: 100%;
+        background-image: url(images/Circle\ design.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
         order: 1;
     }
-    .banner-photo img{
-        width: 257px;
-        height: 257px;
+
+    .banner-photo img {
+        width: 100%;
         margin-bottom: 20px;
-        
+
     }
-    .banner-info{
+
+    .banner-info {
         order: 2;
     }
-    .button{
+
+    .button {
         width: 100%;
         height: 44px;
     }
-    .banner{
+
+    .banner {
         width: 100%;
         display: flex;
         flex-direction: column;
     }
-   
+
     /* 
     --------------
     Client Area
     ----------------
     */
-    hr{
+    hr {
         width: 100%;
         border: 1px solid rgba(192, 204, 218, 0.322);
     }
-    .client-area{
+
+    .client-area {
         margin: 10% 0px;
     }
-    .clients{
+
+    .clients {
         display: grid;
         grid-template-rows: repeat(2, 1fr);
         row-gap: 2%;
         padding: 0px;
         margin-bottom: 25px;
     }
-    .clients img{
+
+    .clients img {
         margin: 0px;
     }
 
@@ -414,44 +470,47 @@ Fotter Section
     Popular Collection 
     ----------------------------
      */
-     .collections{
-         width: 100%;
-         grid-template-columns: repeat(1, 1fr);
-     }
-     .collection-card{
+    .collections {
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .collection-card {
         width: 329px;
         height: 476px;
-     }
+    }
 
-     /* 
+    /* 
      ----------------------
      Paper Fly Section
      আমার একান্ত ভাবনা থেকে
      -------------------
       */
-      .fly-section{
-          width: 50%;
-          height: 757px;
-          margin-bottom: 20px;
-      }
-     .paperfly{
-         display: flex;
-         flex-direction: column;
-         align-items: center;
-     }
-     .fly{
+    .fly-section {
+        width: 50%;
+        height: 757px;
+        margin-bottom: 20px;
+    }
+
+    .paperfly {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fly {
         width: 257px;
         height: 257px;
-     }
+    }
 
-     /* 
+    /* 
      ---------------
      Optional Part
      feature Section
      ---------------
       */
-    
-      /* .feature{
+
+    /* .feature{
           width: 90%;
           display: grid;
           grid-template-rows: repeat(2, 2fr);
@@ -467,19 +526,20 @@ Fotter Section
       .feature-text{
           width: 80%;
       } */
-      .featured-part{
+    .featured-part {
         display: none;
     }
+
     /* 
     -------------
     Footer Section
     --------------
      */
-     footer{
-         margin: 0px;
-         padding: 0px;
-     }
-}  
+    footer {
+        margin: 0px;
+        padding: 0px;
+    }
+}
 
 
 /* 
@@ -489,31 +549,32 @@ Responsive Section
 ==================
  */
 
- @media only screen and (min-width:689px) and (max-width:992px) {
+@media only screen and (min-width:689px) and (max-width:992px) {
 
     /* 
     --------------------
     Common part
     ----------------------
      */
-     main{
+    main {
         padding: 30px;
-     }
-     
-     /* 
+    }
+
+    /* 
      ----------------
      Navigation Section
      --------------------
       */
 
-    header{
+    header {
         width: 100%;
     }
-    nav{
+
+    nav {
         width: 90%;
     }
-   
-    .nav-link ul{
+
+    .nav-link ul {
         display: flex;
     }
 
@@ -522,20 +583,22 @@ Responsive Section
     banner Section
     ----------------
      */
-     .banner{
-         width: 100%;
-         transform: translate(87px, 97px);
-         column-gap: 20px;
-     }
-     .banner-photo{
-         width: 257px;
-         height: 257px;
-     }
-     .banner-photo img{
+    .banner {
+        width: 100%;
+        transform: translate(87px, 97px);
+        column-gap: 20px;
+    }
+
+    .banner-photo {
         width: 257px;
         height: 257px;
-     }
-    
+    }
+
+    .banner-photo img {
+        width: 257px;
+        height: 257px;
+    }
+
 
     /* 
     -----------
@@ -543,20 +606,23 @@ Responsive Section
     ------------
      */
 
-     hr{
+    hr {
         width: 100%;
         border: 1px solid rgba(192, 204, 218, 0.322);
     }
-    .client-area{
+
+    .client-area {
         margin: 10% 0px;
     }
-    .clients{
+
+    .clients {
         display: flex;
         justify-content: space-around;
         padding: 0px;
         margin-bottom: 25px;
     }
-    .clients img{
+
+    .clients img {
         margin: 0px;
     }
 
@@ -565,7 +631,7 @@ Responsive Section
     Popular Collections
     -----------------
      */
-     .collections{
+    .collections {
         width: 100%;
         grid-template-columns: repeat(2, 1fr);
     }
@@ -575,41 +641,44 @@ Responsive Section
     Feature Section
     Optional So disable
       */
-      .featured-part{
-          display: none;
+    .featured-part {
+        display: none;
         /* width: 600px;
         display: flex;
         flex-direction: column; */
-      }
-      /* .feature{
+    }
+
+    /* .feature{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
       } */
 
-      /* paperfly */
-      .fly-section{
+    /* paperfly */
+    .fly-section {
         width: 60%;
         height: 757px;
         margin-bottom: 20px;
     }
-   .paperfly{
-       display: flex;
-       flex-direction: column;
-       align-items: center;
-   }
-   .fly{
-      width: 257px;
-      height: 257px;
-   }
-    
-   
+
+    .paperfly {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fly {
+        width: 257px;
+        height: 257px;
+    }
+
+
     /* 
     --------------
     Footer Section 
     ---------------
     */
-    footer{
+    footer {
         width: 100%;
     }
 
- }
+}
