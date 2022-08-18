@@ -1,0 +1,12 @@
+.contact-header {
+    text-align: center;
+}
+
+.contactImage img {
+    width: 400px;
+}
+
+.contactImage {
+    display: flex;
+    justify-content: center;
+}
