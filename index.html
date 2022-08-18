@@ -13,6 +13,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
         integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script>
+        const handleSignUp = () => {
+            location.href = "www.youtube.com";
+        }
+    </script>
 </head>
 
 <body>
@@ -23,12 +28,18 @@
             </div>
             <div class="nav-link">
                 <ul>
-                    <li><a href="./index.html">Home</a></li>
+                    <li><button onclick="location.href='index.html'">Home</button></li>
+                    <li><button onclick="location.href='Products.html'">Products</button></li>
+                    <li><button onclick="location.href='ContactUs.html'">Contact Us</button></li>
+                    <li><button onclick="location.href='Login.html'">Login</button></li>
+                    <li><a href=""><i class="fas fa-search"></i></a></li>
+                    <li><a href=""><i class="fas fa-shopping-cart"></i></a></li>
+                    <!-- <li><a href="./index.html">Home</a></li>
                     <li><a href="./Products.html">Products</a></li>
                     <li><a href="./SignUp.html">Sing Up</a></li>
                     <li><a href="./Login.html">Log In</a></li>
                     <li><a href=""><i class="fas fa-search"></i></a></li>
-                    <li><a href=""><i class="fas fa-shopping-cart"></i></a></li>
+                    <li><a href=""><i class="fas fa-shopping-cart"></i></a></li> -->
                 </ul>
             </div>
         </nav>
@@ -45,7 +56,12 @@
                         service. We are hopeful and convinced that we will never disappoint you. InshaAllah, our path
                         will be easier....</p>
                     <br>
-                    <a class="button" href="">Prebook Now<i class="fas fa-arrow-right"></i></a>
+                    <!-- <a class="button" href="">Prebook Now <i class="fas fa-arrow-right"></i></a> -->
+
+                    <button class="button" onClick="location.href='AboutUs.html'">
+                        About Us
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
 
                 </div>
                 <div class="banner-photo">
@@ -279,7 +295,13 @@
 
                 </div>
             </div>
-            <a class="side-link" href="">See More<i class="fas fa-arrow-right"></i></a>
+            <!-- <a class="side-link" href="">See More<i class="fas fa-arrow-right"></i></a> -->
+            <button
+                style="border: 0; background-color: transparent; cursor: pointer; font-family: Poppins; font-size: 18px;"
+                class="side-link" onClick="location.href='Products.html'">
+                See More
+                <i class="fas fa-arrow-right"></i>
+            </button>
         </section>
         <!-- Feature Section -->
         <section class="featured-part">
@@ -291,7 +313,9 @@
                     <h1 class="feature-text-title">Featured products at one place</h1>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum perferendis accusamus cumque,
                         assumenda in repudiandae esse ex odio eos. Assumenda!</p>
-                    <a class="feature-button" href="">Join Now <i class="fas fa-arrow-right"></i> </a>
+                    <button class="feature-button" onClick="location.href='SignUp.html'"> Join Now <i
+                            class="fas fa-arrow-right"></i> </button>
+                    <!-- <a class="feature-button" href="">Join Now <i class="fas fa-arrow-right"></i> </a> -->
                 </div>
             </div>
         </section>
@@ -314,7 +338,9 @@
                         <br>
                     </div>
                     <div>
-                        <a class="button" href=""><i class="fas fa-heart"></i>Trust</a>
+                        <button class="button" onClick="location.href='index.html'"> <i
+                                class="fas fa-heart"></i>Trust</button>
+                        <!-- <a class="button" href=""><i class="fas fa-heart"></i>Trust</a> -->
                     </div>
                 </div>
             </div>
