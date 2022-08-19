@@ -14,4 +14,8 @@ mobile
         display: flex;
         flex-direction: column;
     }
+
+    .order-form {
+        padding: 0px 20px;
+    }
 }
