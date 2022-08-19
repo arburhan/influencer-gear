@@ -1,0 +1,17 @@
+.ordered-product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+}
+
+/* 
+responsive for 
+mobile
+*/
+@media only screen and (max-width:688px) {
+    .ordered-product {
+        display: flex;
+        flex-direction: column;
+    }
+}
